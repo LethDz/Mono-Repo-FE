@@ -1,0 +1,4 @@
+packages:
+  - packages/*
+nohoist:
+  - node_modules/normalize-scss

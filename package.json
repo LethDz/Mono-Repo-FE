@@ -1,0 +1,17 @@
+{
+  "name": "@ds/fe-skeleton",
+  "version": "1.0.0",
+  "description": "The sample skeleton for front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpx test",
+    "build": "pnpx lerna run build"
+  },
+  "author": "lethDz",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^8.1.8",
+    "nx": "20.0.0"
+  },
+  "private": true
+}
