@@ -1,6 +1,8 @@
 [submodule "scss"]
 	path = packages/scss
 	url = git@github.com:LethDz/Design-System-Skeleton.git
+	branch = main
 [submodule "next"]
 	path = packages/next
 	url = git@github.com:LethDz/Next-JS-App-Skeleton.git
+	branch = main
