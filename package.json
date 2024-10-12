@@ -13,5 +13,13 @@
     "lerna": "^8.1.8",
     "nx": "20.0.0"
   },
-  "private": true
+  "private": true,
+  "homepage": "https://github.com/LethDz/Mono-Repo-FE#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LethDz/Mono-Repo-FE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LethDz/Mono-Repo-FE/issues"
+  }
 }
