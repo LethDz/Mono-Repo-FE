@@ -2,7 +2,6 @@
   "name": "@ds/fe-skeleton",
   "version": "1.0.0",
   "description": "The sample skeleton for front-end",
-  "main": "index.js",
   "scripts": {
     "test": "pnpx test",
     "build": "pnpx lerna run build"

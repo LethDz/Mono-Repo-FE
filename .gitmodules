@@ -9,6 +9,6 @@
 	branch = main
 
 [submodule "next"]
-	path = app/next
+	path = projects/next
 	url = git@github.com:LethDz/Next-JS-App-Skeleton.git
 	branch = main
