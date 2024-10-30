@@ -1,5 +1,5 @@
 packages:
   - packages/*
-  - app/*
+  - projects/*
 nohoist:
   - node_modules/normalize-scss

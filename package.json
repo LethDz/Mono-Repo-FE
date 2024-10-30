@@ -4,7 +4,8 @@
   "description": "The sample skeleton for front-end",
   "scripts": {
     "test": "pnpx test",
-    "build": "pnpx lerna run build"
+    "build": "pnpx lerna run build",
+    "dev": "pnpm lerna run dev --ignore @ds/next-app-skeleton"
   },
   "author": "lethDz",
   "license": "MIT",
