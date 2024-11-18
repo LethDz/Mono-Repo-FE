@@ -5,11 +5,14 @@
   "scripts": {
     "test": "pnpx test",
     "build": "pnpx lerna run build",
-    "dev": "pnpm lerna run dev --ignore @ds/next-app-skeleton"
+    "dev": "pnpm lerna run dev --ignore @ds/next-app-skeleton",
+    "commit": "git cz"
   },
   "author": "lethDz",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^8.1.8",
     "nx": "20.0.0"
   },
@@ -21,5 +24,10 @@
   },
   "bugs": {
     "url": "https://github.com/LethDz/Mono-Repo-FE/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
