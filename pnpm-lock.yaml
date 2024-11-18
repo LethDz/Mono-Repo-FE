@@ -41,6 +41,12 @@ importers:
       '@babel/preset-typescript':
         specifier: ^7.26.0
         version: 7.26.0(@babel/core@7.26.0)
+      '@commitlint/cli':
+        specifier: ^19.5.0
+        version: 19.5.0(@types/node@22.7.5)(typescript@5.5.4)
+      '@commitlint/config-conventional':
+        specifier: ^19.5.0
+        version: 19.5.0
       '@eslint/js':
         specifier: ^9.12.0
         version: 9.15.0
@@ -80,6 +86,12 @@ importers:
       babel-plugin-module-resolver:
         specifier: ^5.0.2
         version: 5.0.2
+      commitizen:
+        specifier: ^4.3.1
+        version: 4.3.1(@types/node@22.7.5)(typescript@5.5.4)
+      cz-conventional-changelog:
+        specifier: ^3.3.0
+        version: 3.3.0(@types/node@22.7.5)(typescript@5.5.4)
       eslint:
         specifier: 9.14.0
         version: 9.14.0(jiti@1.21.6)
@@ -150,6 +162,18 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
     devDependencies:
+      '@commitlint/cli':
+        specifier: ^19.5.0
+        version: 19.5.0(@types/node@22.7.5)(typescript@5.5.4)
+      '@commitlint/config-conventional':
+        specifier: ^19.5.0
+        version: 19.5.0
+      commitizen:
+        specifier: ^4.3.1
+        version: 4.3.1(@types/node@22.7.5)(typescript@5.5.4)
+      cz-conventional-changelog:
+        specifier: ^3.3.0
+        version: 3.3.0(@types/node@22.7.5)(typescript@5.5.4)
       husky:
         specifier: ^9.1.6
         version: 9.1.6
@@ -196,12 +220,24 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@commitlint/cli':
+        specifier: ^19.5.0
+        version: 19.5.0(@types/node@22.7.5)(typescript@5.5.4)
+      '@commitlint/config-conventional':
+        specifier: ^19.5.0
+        version: 19.5.0
       '@types/node':
         specifier: 22.7.5
         version: 22.7.5
       '@types/react':
         specifier: 18.3.11
         version: 18.3.11
+      commitizen:
+        specifier: ^4.3.1
+        version: 4.3.1(@types/node@22.7.5)(typescript@5.5.4)
+      cz-conventional-changelog:
+        specifier: ^3.3.0
+        version: 3.3.0(@types/node@22.7.5)(typescript@5.5.4)
       eslint:
         specifier: 9.14.0
         version: 9.14.0(jiti@1.21.6)
