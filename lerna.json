@@ -4,5 +4,10 @@
   "npmClient": "pnpm",
   "packages": ["packages/*", "projects/*"],
   "stream": true,
-  "useNx": true
+  "useNx": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true
+    }
+  }
 }
