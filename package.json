@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "description": "The sample skeleton for front-end",
   "scripts": {
-    "test": "pnpx test",
+    "test": "pnpm lerna run test",
     "build": "pnpx lerna run build",
     "dev": "pnpm lerna run dev --ignore @ds/next-app-skeleton",
-    "commit": "git cz"
+    "commit": "git cz",
+    "prepare": "husky"
   },
   "author": "lethDz",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.6",
     "lerna": "^8.1.8",
     "nx": "20.0.0"
   },
@@ -28,6 +32,11 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
