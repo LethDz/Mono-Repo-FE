@@ -192,6 +192,9 @@ importers:
       sass:
         specifier: ^1.79.4
         version: 1.81.0
+      sass-migrator:
+        specifier: ^2.2.1
+        version: 2.2.1
       stylelint:
         specifier: ^16.9.0
         version: 16.10.0(typescript@5.5.4)
@@ -5236,6 +5239,11 @@ packages:
 
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+
+  sass-migrator@2.2.1:
+    resolution: {integrity: sha512-Sa2sVC2MeL4cVcEPpd8z/R5/c8LOA0B6K39IGrJl/8WQ24lI1tLF4P8WcQJSCt/lDmJCyOmFGZTC3Rf7/6tVfQ==}
+    engines: {node: '>=10.12.0'}
+    hasBin: true
 
   sass@1.81.0:
     resolution: {integrity: sha512-Q4fOxRfhmv3sqCLoGfvrC9pRV8btc0UtqL9mN6Yrv6Qi9ScL55CVH1vlPP863ISLEEMNLLuu9P+enCeGHlnzhA==}
@@ -12080,6 +12088,8 @@ snapshots:
       is-regex: 1.1.4
 
   safer-buffer@2.1.2: {}
+
+  sass-migrator@2.2.1: {}
 
   sass@1.81.0:
     dependencies:
